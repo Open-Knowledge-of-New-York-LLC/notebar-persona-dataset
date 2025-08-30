@@ -1,4 +1,4 @@
-# nb-personas
+# notebar-persona-dataset
 **Persona‑Conditioned Notes for Multi‑Label Classification**
 
 A lightweight, reproducible dataset for evaluating persona‑conditioned, multi‑label note classification. We design and release **3,173 synthetic notes** with **8,494 concept annotations**, authored under **17 personas covering all 16 MBTI types** (one type has two variants). Each note includes rich metadata (context, entities, cognitive flags) plus a *concept map* with one‑to‑many labels per note, enabling strong multi‑label benchmarks and ablations by persona.
@@ -29,7 +29,7 @@ Persona signals (style, priorities, domain tilt) can change label distributions 
 ## Repository layout
 Your repo may look like this (file names may vary slightly):
 ```
-nb-personas/
+notebar-persona-dataset/
 ├─ data/
 │  └─ notes/
 │     ├─ qa_output_011_ENTJ_Naomi_Donovan.json
@@ -223,11 +223,11 @@ Examples in this release include (non‑exhaustive):
 
 ## How to cite
 ```
-@dataset{nb_personas_2025,
-  title  = {nb-personas: Persona-Conditioned Notes for Multi-Label Classification},
+@dataset{notebar-persona-dataset_2025,
+  title  = {notebar-persona-dataset: Persona-Conditioned Notes for Multi-Label Classification},
   author = {Note Bar},
   year   = {2025},
-  url    = {https://github.com/your-org/nb-personas}
+  url    = {[https://github.com/your-org/nb-personas](https://github.com/Open-Knowledge-of-New-York-LLC/notebar-persona-dataset/}
 }
 ```
 
